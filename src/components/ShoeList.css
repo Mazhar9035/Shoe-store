@@ -1,0 +1,33 @@
+.product-list {
+  flex: 1;
+}
+
+.product-grid {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f39c12;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  width: 200px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card button {
+  margin-top: 10px;
+  background-color: #ffb300;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}

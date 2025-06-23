@@ -1,0 +1,82 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.shoe-list,
+.cart {
+  width: 48%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shoe-card {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.shoe-card img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+.shoe-card h3 {
+  margin: 5px 0;
+}
+
+.shoe-card button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.cart-item button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.app {
+  background-color: #1e1e1e;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
