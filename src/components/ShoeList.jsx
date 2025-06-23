@@ -57,7 +57,7 @@ const products = [
     id: 5,
     name: "Nike classic Shoes",
     price: 80,
-    image: "/image1.webp",
+    image: " /image1.webp",
   },
   {
     id: 6,
