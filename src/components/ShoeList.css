@@ -1,9 +1,9 @@
-.product-list {
+/* .product-list {
   flex: 1;
 }
 
 .product-grid {
-  /* display: flex; */
+  display: flex;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -30,4 +30,63 @@
   padding: 8px 12px;
   cursor: pointer;
   border-radius: 5px;
+} */
+
+.product-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f39c12;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  width: 100%; /* Makes it fully responsive inside the grid */
+  box-sizing: border-box;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  max-height: 160px;
+  object-fit: cover;
+}
+
+.product-card button {
+  margin-top: 10px;
+  background-color: #ffb300;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Optional: Extra responsive tweaks for small screens */
+@media (max-width: 768px) {
+  .product-card {
+    padding: 10px;
+    width: 60%;
+  }
+
+  .product-card img {
+    max-height: 140px;
+  }
+
+  .product-card button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }

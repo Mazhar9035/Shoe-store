@@ -28,42 +28,81 @@
 import React from "react";
 import "./ShoeList.css";
 
+// const products = [
+//   {
+//     id: 1,
+//     name: "Nike Classic Sneaker",
+//     price: 75,
+//     image: "/image7.jpg",
+//   },
+//   {
+//     id: 2,
+//     name: "Nike Running Shoes",
+//     price: 80,
+//     image: "/image2.avif",
+//   },
+//   {
+//     id: 3,
+//     name: "Nike Running Shoes",
+//     price: 80,
+//     image: "/image3.jpeg",
+//   },
+//   {
+//     id: 4,
+//     name: "Nike Running Shoes",
+//     price: 80,
+//     image: "/image4.webp",
+//   },
+//   {
+//     id: 5,
+//     name: "Nike classic Shoes",
+//     price: 80,
+//     image: " /image1.webp",
+//   },
+//   {
+//     id: 6,
+//     name: "Nike classic Shoes",
+//     price: 80,
+//     image: "/image6.jpeg",
+//   },
+// ];
+
 const products = [
   {
     id: 1,
     name: "Nike Classic Sneaker",
     price: 75,
-    image: "/image7.jpg",
+    image: `${import.meta.env.BASE_URL}image7.jpg`,
   },
   {
     id: 2,
     name: "Nike Running Shoes",
     price: 80,
-    image: "/image2.avif",
+    image: `${import.meta.env.BASE_URL}image2.avif`,
   },
   {
     id: 3,
     name: "Nike Running Shoes",
     price: 80,
-    image: "/image3.jpeg",
+    image: `${import.meta.env.BASE_URL}image3.jpeg`,
   },
   {
     id: 4,
     name: "Nike Running Shoes",
     price: 80,
-    image: "/image4.webp",
+    image: `${import.meta.env.BASE_URL}image4.webp`,
   },
   {
     id: 5,
-    name: "Nike classic Shoes",
+    name: "Nike Classic Shoes",
     price: 80,
-    image: " /image1.webp",
+    image: `${import.meta.env.BASE_URL}image1.webp`,
   },
   {
     id: 6,
-    name: "Nike classic Shoes",
+    name: "Nike Classic Shoes",
     price: 80,
-    image: "/image6.jpeg",
+    image: `${import.meta.env.BASE_URL}image6.jpeg`,
   },
 ];
 
